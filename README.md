@@ -15,7 +15,7 @@ Run InstallKeepOutlookRunning-64bit.bat if you are running a 64 bit version of O
 This does not touch any system files. The .bat file installs the DLL to the current user's AppData folder, then manually installs all the necessary registry entries for the file to HKEY_CURRENT_USER and HKEY_CURRENT_USER\Software\Classes\ . By registering there, we avoid having to register in HKEY_CLASSES_ROOT which requires admin priveleges. I was able to find all the necessary registry entries for installation by generating a registy (.reg) file on the 32-bit dll with Visual Studio's regcap.exe, then in installation the batch file replace placeholders with the necessary local user paths.
 
 ### Tested and Confirmed Working On
-Microsoft® Outlook® for Microsoft 365 MSO (Version 2210 Build 16.0.15726.20070) 64-bit 
+- Microsoft® Outlook® for Microsoft 365 MSO (Version 2210 Build 16.0.15726.20070) 64-bit 
 
 ### Credit
 Credit of course to Tim Eck who wrote the initial add-in for the StackOverflow Answer here: https://superuser.com/a/275244/322104
