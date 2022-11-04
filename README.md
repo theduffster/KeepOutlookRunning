@@ -1,5 +1,5 @@
 # KeepOutlookRunning
-Keep Outlook Running COM Addin Installable Without Admin Rights
+Keep Outlook Running COM Addin (Made Installable Without Admin Rights)
 
 ### What Does This Do?
 This Outlook add-in forces Outlook to minimize, instead of close, when you hit the "X" button. While minimized, it stays running and you won't miss out on important emails!
