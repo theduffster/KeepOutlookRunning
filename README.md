@@ -14,6 +14,7 @@ Run InstallKeepOutlookRunning-64bit.bat if you are running a 64 bit version of O
 ### How Does This Work?
 This does not touch any system files. The .bat file installs the DLL to the current user's AppData folder, then manually installs all the necessary registry entries for the file to HKEY_CURRENT_USER and HKEY_CURRENT_USER\Software\Classes\ . By registering there, we avoid having to register in HKEY_CLASSES_ROOT which requires admin priveleges. I was able to find all the necessary registry entries for installation by generating a registy (.reg) file on the 32-bit dll with Visual Studio's regcap.exe, then in installation the batch file replace placeholders with the necessary local user paths.
 
+### Credit
 Credit of course to Tim Eck who wrote the initial add-in for the StackOverflow Answer here: https://superuser.com/a/275244/322104
 
 Enormous credit as well to Jens Huehn who's [answer](https://stackoverflow.com/a/55072381/3171509) was crucial to figuring it all out, and who's batch code I borrowed. His product [SlideFab 2](https://slidefab.com/lite/) served as the blueprint for making this work. 
