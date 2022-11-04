@@ -1,0 +1,51 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\AppID]
+@="KeepOutlookRunning"
+
+[HKEY_CURRENT_USER\Software\Classes\AppID\KeepOutlookRunning.DLL]
+"AppID"=""
+
+[HKEY_CURRENT_USER\Software\Classes\KeepOutlookRunningCOMAddin.Connect.1]
+@="Keep Outlook Running Connect Class Object"
+
+[HKEY_CURRENT_USER\Software\Classes\KeepOutlookRunningCOMAddin.Connect.1\CLSID]
+@="{AA9CDF1C-A41E-43C4-81C8-7330D6A5322E}"
+
+[HKEY_CURRENT_USER\Software\Classes\KeepOutlookRunningCOMAddin.Connect]
+@="Keep Outlook Running Connect Class Object"
+
+[HKEY_CURRENT_USER\Software\Classes\KeepOutlookRunningCOMAddin.Connect\CLSID]
+@="{AA9CDF1C-A41E-43C4-81C8-7330D6A5322E}"
+
+[HKEY_CURRENT_USER\Software\Classes\KeepOutlookRunningCOMAddin.Connect\CurVer]
+@="KeepOutlookRunningCOMAddin.Connect.1"
+
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{AA9CDF1C-A41E-43C4-81C8-7330D6A5322E}]
+@="Keep Outlook Running Connect Class Object"
+
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{AA9CDF1C-A41E-43C4-81C8-7330D6A5322E}\ProgID]
+@="KeepOutlookRunningCOMAddin.Connect.1"
+
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{AA9CDF1C-A41E-43C4-81C8-7330D6A5322E}\VersionIndependentProgID]
+@="KeepOutlookRunningCOMAddin.Connect"
+
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{AA9CDF1C-A41E-43C4-81C8-7330D6A5322E}\Programmable]
+
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{AA9CDF1C-A41E-43C4-81C8-7330D6A5322E}\InprocServer32]
+@="FOLDER_APP_DATA\\KeepOutlookRunning\\KeepOutlookRunning.dll"
+"ThreadingModel"="Apartment"
+
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{AA9CDF1C-A41E-43C4-81C8-7330D6A5322E}\TypeLib]
+@="{870E8189-BD89-46B7-B3E3-25A79EB78459}"
+
+[HKEY_CURRENT_USER\Software\Classes\TypeLib\{870E8189-BD89-46B7-B3E3-25A79EB78459}\1.0\0\win32]
+@="FOLDER_APP_DATA\\KeepOutlookRunning\\KeepOutlookRunning.dll"
+
+[HKEY_CURRENT_USER\Software\Classes\TypeLib\{870E8189-BD89-46B7-B3E3-25A79EB78459}\1.0\HELPDIR]
+@="FOLDER_APP_DATA\\KeepOutlookRunning"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins\KeepOutlookRunningCOMAddin.Connect]
+"Description"="Keep Outlook Running COM Addin"
+"FriendlyName"="Keep Outlook Running COM Addin"
+"LoadBehavior"=dword:00000003
