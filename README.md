@@ -1,6 +1,9 @@
 # KeepOutlookRunning
 Keep Outlook Running COM Addin Installable Without Admin Rights
 
+### What Does This Do?
+This Outlook add-in forces Outlook to minimize, instead of close, when you hit the "X" button. While minimized, it stays running and you won't miss out on important emails!
+
 ### How to Install:
 1. Extract "KeepOutlookRunning.zip"
 2. CD to folder containing the contents you just extracted
