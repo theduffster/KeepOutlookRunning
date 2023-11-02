@@ -19,7 +19,8 @@ This does not touch any system files. The .bat file installs the DLL to the curr
 How was I able to find all the necessary registry entries? I was able to find all the necessary registry entries for installation by generating a registy (.reg) file on the 32-bit dll with Visual Studio's regcap.exe. The installation batch file replace installation path placeholders with the relevant local user paths.
 
 ### Tested and Confirmed Working On
-- Microsoft® Outlook® for Microsoft 365 MSO (Version 2210 Build 16.0.15726.20070) 64-bit 
+- Microsoft® Outlook® for Microsoft 365 MSO (Version 2210 Build 16.0.15726.20070) 64-bit
+- Upgrading to the 2023 version of Outlook currently being previewed seems to break this plugin
 
 ### Credit
 Credit of course to Tim Eck who wrote the initial add-in for the StackOverflow Answer here: https://superuser.com/a/275244/322104
