@@ -24,6 +24,6 @@ How was I able to find all the necessary registry entries? I was able to find al
 ### Credit
 Credit of course to Tim Eck who wrote the initial add-in for the StackOverflow Answer here: https://superuser.com/a/275244/322104
 
-Enormous credit as well to Jens Huehn who's [answer](https://stackoverflow.com/a/55072381/3171509) was crucial to figuring it all out, and who's batch code I borrowed. His product [SlideFab 2](https://slidefab.com/lite/) served as the blueprint for making this work. 
+Enormous credit as well to Jens Huehn who's [answer](https://stackoverflow.com/a/55072381/3171509) was crucial to figuring it all out, and who's batch code I borrowed. His product [SlideFab 2](https://slidefab.com/lite/) served as the blueprint for making this work without Admin Priveleges.
 
 The SourceCode is sourced from Ourselp's github here: https://github.com/Ourselp/KeepOutlookRunning
