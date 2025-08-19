@@ -6,8 +6,8 @@ This Outlook add-in forces Outlook to minimize, instead of close, when you hit t
 
 ### How to Install:
 1. Extract contents of "KeepOutlookRunning.zip" anywhere
-2. CD to folder containing the contents you just extracted
-3. Run InstallKeepOutlookRunning.bat if you are running a 32 bit version of Outlook. 
+2. CD to folder containing the contents you just extracted using CMD or Power Shell
+3. Run InstallKeepOutlookRunning.bat if you are running a 32 bit version of Outlook, 
 Run InstallKeepOutlookRunning-64bit.bat if you are running a 64 bit version of Outlook
 4. Restart Outlook
 
