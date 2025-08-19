@@ -20,7 +20,7 @@ How was I able to find all the necessary registry entries? I was able to find al
 
 ### Tested and Confirmed Working On
 - Microsoft® Outlook® for Microsoft 365 MSO (Version 2210 Build 16.0.15726.20070) 64-bit
-- Upgrading to the new version of Outlook currently being previewed seems to break this plugin
+- Apparently working on newer versions as well
 
 ### Credit
 Credit of course to Tim Eck who wrote the initial add-in for the StackOverflow Answer here: https://superuser.com/a/275244/322104
