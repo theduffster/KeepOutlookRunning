@@ -20,6 +20,7 @@ How was I able to find all the necessary registry entries? I was able to find al
 
 ### Tested and Confirmed Working On
 - Microsoft® Outlook® for Microsoft 365 MSO (Version 2210 Build 16.0.15726.20070) 64-bit
+- Ver. 2511 Build. 19426.20170 on Windows 11 Build. 26200.7462
 - Apparently working on newer versions as well
 
 ### Credit
